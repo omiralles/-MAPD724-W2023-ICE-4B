@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A94B9D672999BEE50070768F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A94B9D662999BEE50070768F /* Main.storyboard */; };
 		A97D0FFB29946C950097C768 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A97D0FFA29946C950097C768 /* GameScene.sks */; };
 		A97D100629946C950097C768 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A97D100529946C950097C768 /* Assets.xcassets */; };
 		A97D104C29946CA10097C768 /* bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = A97D101129946CA10097C768 /* bullet.png */; };
@@ -81,13 +82,13 @@
 		A97D10AB29946FBA0097C768 /* StartScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A97D10AA29946FBA0097C768 /* StartScene.sks */; };
 		A97D10AD29946FCB0097C768 /* StartScence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97D10AC29946FCB0097C768 /* StartScence.swift */; };
 		A97D10B1299470830097C768 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97D10B0299470830097C768 /* GameScene.swift */; };
-		A97D10B529948B5F0097C768 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A97D10B329948B5E0097C768 /* Main.storyboard */; };
 		A97D10B729948CE90097C768 /* EndScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A97D10B629948CE90097C768 /* EndScene.sks */; };
 		A97D10B929948CFF0097C768 /* EndScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97D10B829948CFF0097C768 /* EndScene.swift */; };
 		A97D10BB29948FF40097C768 /* engine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A97D10BA29948FF40097C768 /* engine.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A94B9D662999BEE50070768F /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A97D0FF529946C950097C768 /* MAPD724-W2023-ICE-4B.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MAPD724-W2023-ICE-4B.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A97D0FFA29946C950097C768 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		A97D100529946C950097C768 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -164,7 +165,6 @@
 		A97D10AC29946FCB0097C768 /* StartScence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScence.swift; sourceTree = "<group>"; };
 		A97D10B0299470830097C768 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		A97D10B22994768F0097C768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		A97D10B429948B5E0097C768 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../Desktop/Oscar/PostGraduate/Semester 2/iOS Development 2/MAPD724-W2023-ICE-4B-main/MAPD724-W2023-ICE-4B/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 		A97D10B629948CE90097C768 /* EndScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EndScene.sks; sourceTree = "<group>"; };
 		A97D10B829948CFF0097C768 /* EndScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndScene.swift; sourceTree = "<group>"; };
 		A97D10BA29948FF40097C768 /* engine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = engine.mp3; sourceTree = "<group>"; };
@@ -200,7 +200,6 @@
 		A97D0FF729946C950097C768 /* MAPD724-W2023-ICE-4B */ = {
 			isa = PBXGroup;
 			children = (
-				A97D10B329948B5E0097C768 /* Main.storyboard */,
 				A97D10B22994768F0097C768 /* Info.plist */,
 				A97D10A729946EED0097C768 /* Scenes */,
 				A97D10A129946D240097C768 /* LaunchScreen.storyboard */,
@@ -212,6 +211,7 @@
 				A97D108429946CAB0097C768 /* Core */,
 				A97D100F29946CA10097C768 /* Assets */,
 				A97D100529946C950097C768 /* Assets.xcassets */,
+				A94B9D662999BEE50070768F /* Main.storyboard */,
 			);
 			path = "MAPD724-W2023-ICE-4B";
 			sourceTree = "<group>";
@@ -424,6 +424,7 @@
 				A97D107F29946CA10097C768 /* textureAtlas.json in Resources */,
 				A97D106A29946CA10097C768 /* enemy1.png in Resources */,
 				A97D107129946CA10097C768 /* startButton.png in Resources */,
+				A94B9D672999BEE50070768F /* Main.storyboard in Resources */,
 				A97D106729946CA10097C768 /* smallexplosion1.png in Resources */,
 				A97D109F29946CCA0097C768 /* Actions.sks in Resources */,
 				A97D104F29946CA10097C768 /* plane1.png in Resources */,
@@ -455,7 +456,6 @@
 				A97D100629946C950097C768 /* Assets.xcassets in Resources */,
 				A97D107029946CA10097C768 /* explosion7.png in Resources */,
 				A97D105A29946CA10097C768 /* coin04.png in Resources */,
-				A97D10B529948B5F0097C768 /* Main.storyboard in Resources */,
 				A97D105C29946CA10097C768 /* smallexplosion5.png in Resources */,
 				A97D106929946CA10097C768 /* explosion1.png in Resources */,
 				A97D106229946CA10097C768 /* coin02.png in Resources */,
@@ -505,17 +505,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		A97D10B329948B5E0097C768 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A97D10B429948B5E0097C768 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A97D100A29946C950097C768 /* Debug */ = {
